@@ -1,0 +1,32 @@
+{
+    "bitwise": true,
+    "esnext": true,
+    "curly": true,
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": true,
+    "maxdepth": 3,
+    "maxparams": 6,
+    "maxstatements": 22,
+    "nonew": true,
+    "noarg": true,
+    "singleGroups": true,
+    "undef": true,
+    "unused": true,
+    "onevar": true,
+    "sub": true,
+    "browser": true,
+    "white": true,
+    "quotmark": "double",
+    "nonbsp": true,
+    "freeze": true,
+    "globals": {
+        "require": true,
+        "define": true,
+        "Em": true,
+        "DS": true,
+        "$": true,
+        "module": true,
+        "__dirname": true
+    }
+}
