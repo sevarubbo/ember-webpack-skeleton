@@ -17,6 +17,9 @@ module.exports = {
     },
     resolve: {
         modules: [path.resolve(__dirname, "app"), "node_modules"],
+        alias: {
+            "/base": path.resolve(__dirname, "app/base"),
+        }
     },
     module: {
         loaders: [

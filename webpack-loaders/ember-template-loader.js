@@ -22,7 +22,7 @@ module.exports = function (content) {
         templateName = `components/${moduleName}`;
     } else {
         templateName = templatePath
-            .replace("blocks/routes/", "")
+            .replace("components/routes/", "")
             .replace("routes/", "")
             .split("/")
             .slice(0, -1)
